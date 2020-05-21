@@ -44,5 +44,5 @@ foreach ($tr as $element1) {
     }
 }
 
-echo json_encode($All, JSON_PRETTY_PRINT);
+$data = json_encode($All, JSON_PRETTY_PRINT);
 ?>
